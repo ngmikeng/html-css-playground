@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #cdcdcd;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  min-height: 60px;
+  background: rgba(0, 11, 49, 0.932);
+  border-bottom: 3px solid yellow;
+}
+
+header .branding {
+  float: left;
+  color: #fff;
+}
+
+header .branding .highlight-text {
+  color: yellow;
+}
+
+header nav {
+  float: right;
+  padding-top: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+header nav ul li {
+  float: left;
+  padding: 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+#showcase {
+  margin-top: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+#showcase p {
+  font-size: 24px;
+}
+
+#showcase h1 {
+  font-size: 55px;
+}
+
+#newsletter {
+  background: rgba(0, 11, 49, 0.932);
+  color: #fff;
+  padding: 15px;
+}
+
+#newsletter h1 {
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter form input[type="email"] {
+  height: 25px;
+  width: 200px;
+  padding: 2px;
+}
+
+#newsletter form .button-submit {
+  padding: 8px;
+  background: yellow;
+  border: 1px solid yellow;
+}
+
+#boxes {
+  margin-top: 30px;
+}
+
+#boxes .box {
+  float: left;
+  margin: 0 10px;
+  width: 30%;
+  text-align: center;
+}
+
+.box img {
+  width: 90px;
+  height: 90px;
+}
+
+footer {
+  background: rgb(253, 253, 0);
+  padding: 20px;
+}
+
+footer p {
+  text-align: center;
+}
