@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
-  background: #cdcdcd;
+  background: #f0f0f0;
 }
 
 .container {
@@ -49,7 +49,8 @@ header nav ul li a {
   cursor: pointer;
 }
 
-header nav ul li a:hover {
+header nav ul li a:hover, 
+header nav ul li a.active {
   color: yellow;
 }
 
@@ -58,6 +59,8 @@ header nav ul li a:hover {
   color: #fff;
   background: url("../images/showcase-bg.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
 }
 
 #showcase p {
@@ -66,6 +69,11 @@ header nav ul li a:hover {
 
 #showcase h1 {
   font-size: 55px;
+  margin-top: 100px;
+}
+
+#showcase .dark-text-bg {
+  background: rgba(0, 0, 0, 0.55);
 }
 
 #newsletter {
@@ -114,6 +122,37 @@ header nav ul li a:hover {
 .box img {
   width: 90px;
   height: 90px;
+}
+
+/* Services */
+#main {
+
+}
+
+#main article.main-col {
+ float: left;
+ width: 65%;
+}
+
+#main aside.side-col {
+ float: right;
+}
+
+.services-page ul {
+  padding: 0;
+  margin: 0;
+}
+
+.services-page ul li {
+  list-style: none;
+  border: 1px solid #cdcdcd;
+  background: #cdcdcd;
+  margin-bottom: 5px;
+  padding: 20px;
+}
+
+.services-page ul li p {
+  padding-bottom: 10px;
 }
 
 footer {
