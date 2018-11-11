@@ -5,12 +5,13 @@
   width: 80%;
   margin: auto;
   .branding {
+    display:  inline-block;
     h1 {
       color: $iron;
       padding-top: 0; 
       margin: 10px; 
-      display:  inline-block;
       .highlight-text {
+        border-top:   2px solid currentColor;
         color: $water;
       }
     }
